@@ -28,7 +28,7 @@ const createMarkdownFile = async (index) => {
 const createMarkdownFiles = async () => {
   const startTime = Date.now();
   try {
-    for (let i = 1; i < 5000; i++) {
+    for (let i = 1; i < 8000; i++) {
       await createMarkdownFile(i);
     }
     const endTime = Date.now();
